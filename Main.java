@@ -15,7 +15,7 @@ public class Main extends JFrame {
         setResizable(false);
         pack();
         
-        setTitle("Star");
+        setTitle("Rose");
         setLocationRelativeTo(null);        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

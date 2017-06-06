@@ -58,7 +58,7 @@ public class Board extends JPanel
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         drawRose(g,7.0/3.0,2);
-        drawSine(g);
+        drawCircle(g);
     }
 
     private double r_x(double k,int theta) {
@@ -86,7 +86,7 @@ public class Board extends JPanel
         }
     }
 
-    private void drawSine(Graphics g) {
+    private void drawCircle(Graphics g) {
 
         g.setColor(Color.blue);
         g.fillOval(x,y,10,10);
